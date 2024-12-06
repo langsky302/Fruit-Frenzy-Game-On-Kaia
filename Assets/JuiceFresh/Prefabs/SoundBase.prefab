@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 8200000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SoundBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8200000
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dcae87cba276d84da88cca70d5ab1cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 8300000, guid: d39f0736f9253ae40a1532553e7c114d, type: 3}
+  selecting:
+  - {fileID: 8300000, guid: 0df70a3a2efd7c44fa2f46ee8973f63f, type: 3}
+  - {fileID: 8300000, guid: 1adeb666ba4b397439605d8a80f57a02, type: 3}
+  - {fileID: 8300000, guid: ef0a2119b3a9c95418a72c8a9fa094a4, type: 3}
+  - {fileID: 8300000, guid: 3f1473eb49b4a46498a56738ce81520a, type: 3}
+  - {fileID: 8300000, guid: d4689fd6f0572b147a2cd337e8375d59, type: 3}
+  - {fileID: 8300000, guid: 356bfcd1106f5f14990525a4fb063a56, type: 3}
+  - {fileID: 8300000, guid: 8aae0e85cc9f56a498c0fc3da216aa9b, type: 3}
+  - {fileID: 8300000, guid: 689c14e4faab6654f8322a5b6797b19d, type: 3}
+  - {fileID: 8300000, guid: c37f839627aa3e048bf2d04b609b7d87, type: 3}
+  - {fileID: 8300000, guid: 4d392729d9c45b348a1df4518d152e59, type: 3}
+  pops:
+  - {fileID: 8300000, guid: ee70460514a8b624a83d76c9708d4c04, type: 3}
+  - {fileID: 8300000, guid: c049bb9292be54e4d8ba13b6d55285f0, type: 3}
+  - {fileID: 8300000, guid: 5af63d4ae9922de40beca1754a45b40a, type: 3}
+  - {fileID: 8300000, guid: 991f920c70d48014ba667737da04f0a2, type: 3}
+  appearStipedColorBomb: {fileID: 8300000, guid: fde17280a4cf4d94b924daff28a6f63f,
+    type: 3}
+  complete:
+  - {fileID: 8300000, guid: 072c4cf9229b6ad4485bfbb4eccd7e83, type: 3}
+  - {fileID: 8300000, guid: 072c4cf9229b6ad4485bfbb4eccd7e83, type: 3}
+  shovel: {fileID: 8300000, guid: 8ef4b711001098a47897d2c5e432b9f4, type: 3}
+  swish:
+  - {fileID: 8300000, guid: a0a5b1b85b90bb244a37eb6e68132cdd, type: 3}
+  - {fileID: 8300000, guid: f6d56b08d2134464998e21920bd32a8b, type: 3}
+  drop:
+  - {fileID: 8300000, guid: 0ed0cfa5d2750da42ae544c3b1ce98e1, type: 3}
+  - {fileID: 8300000, guid: 0ed0cfa5d2750da42ae544c3b1ce98e1, type: 3}
+  alert: {fileID: 8300000, guid: 86dd97458e92687418373f39ec13be73, type: 3}
+  timeOut: {fileID: 8300000, guid: 9bb08070cfdf9df4aba0c9d662269490, type: 3}
+  star:
+  - {fileID: 8300000, guid: 8884343ae626a9a4aa4acb27b3a44a41, type: 3}
+  - {fileID: 8300000, guid: 965abf72661cc244c8be3cf4e5ec0267, type: 3}
+  - {fileID: 8300000, guid: cc468839bf750924887ac8e0b5fdbff8, type: 3}
+  gameOver:
+  - {fileID: 8300000, guid: 9bdee94e0bf893340aa118db11498ce9, type: 3}
+  - {fileID: 0}
+  cash: {fileID: 8300000, guid: 610ee9fed181d8a418a3b4bf9c10d21c, type: 3}
+  destroy:
+  - {fileID: 8300000, guid: 33b91b89789b59843a91fddc9689edb2, type: 3}
+  - {fileID: 8300000, guid: a1ead8d708cced24283f1945d958a3de, type: 3}
+  boostBomb: {fileID: 8300000, guid: eb6692c14a613e04c88633423ba680f8, type: 3}
+  boostColorReplace: {fileID: 8300000, guid: 52b06d6cf81938446b0b18677e42e84a, type: 3}
+  explosion: {fileID: 8300000, guid: 9b01c713f18a77e45be4fc8d46e1a8b9, type: 3}
+  getStarIngr: {fileID: 8300000, guid: cbbba0ce2629c844e96d48de75e34717, type: 3}
+  strippedExplosion: {fileID: 8300000, guid: 14b8bdf90c43cba438d86331de81dba5, type: 3}
+  block_destroy: {fileID: 8300000, guid: d57ac29178a42164aa219b6e77015708, type: 3}
+  wrongMatch: {fileID: 8300000, guid: d584cb6e5b388e2408b3cd42e147e9d8, type: 3}
+  noMatch: {fileID: 8300000, guid: defa479b10bbdc945a8dc1d209862598, type: 3}
+  appearPackage: {fileID: 8300000, guid: 025b42c957aa9cb43a2decbc6793f52b, type: 3}
+  destroyPackage: {fileID: 8300000, guid: 6057f9323179b8a47974cfbf8482b21d, type: 3}
+  colorBombExpl: {fileID: 8300000, guid: 12c0c8b7ec04ad443b1d547507f87acf, type: 3}
+  iceCrack: {fileID: 8300000, guid: f3a986a936e0df047abdee01e929d93e, type: 3}

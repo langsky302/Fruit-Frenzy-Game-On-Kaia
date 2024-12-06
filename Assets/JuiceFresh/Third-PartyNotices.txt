@@ -1,0 +1,6 @@
+Juice Fresh is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+A. iTween
+    - MIT license 
+    - License details available in http://pixelplacement.com/itween/index.php
+
